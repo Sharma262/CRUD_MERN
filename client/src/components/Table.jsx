@@ -13,7 +13,7 @@ const Table = ({ items, onEdit, onDelete }) => {
         </tr>
       </thead>
       <tbody>
-        {items.map((item) => (
+        {items?.data?.phoneNumbers?.map((item) => (
           <tr key={item._id}>
             <td>{item.name}</td>
             <td>{item.phone}</td>

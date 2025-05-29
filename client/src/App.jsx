@@ -30,7 +30,7 @@ const App = () => {
   };
 
   const handleUpdate = async (phone) => {
-    await axios.put(`${API}/update-phone/${phone._id}`, phone);
+    await axios.patch(`${API}/update-phone/${phone._id}`, phone);
     fetchPhones();
   };
 
