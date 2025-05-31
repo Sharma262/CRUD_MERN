@@ -63,14 +63,6 @@ cd backend
 npm install
 ```
 
-#### 👉 Create a `.env` file (optional)
-
-If needed, add MongoDB URI:
-
-```
-MONGO_URI=mongodb://localhost:27017/phonebook
-```
-
 #### Start Backend Server
 
 ```bash
